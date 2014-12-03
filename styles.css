@@ -1,0 +1,170 @@
+.photo_image {
+	display: block;
+	width: inherit;
+}
+
+.photo_poster {
+	display: block;
+}
+
+#signout, #post {
+	display: inline-block;
+	position: relative;
+	top: -3px;
+	padding: 8px;
+	color: #9ca4ab;
+}
+
+#username {
+	display: inline-block;
+	position: relative;
+	margin-left: 0px;
+	top: -3px;
+	padding: 8px;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 10px;
+	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+body {
+	background-color: #7594AB;
+	margin: 0;
+	font-family: verdana;
+	color: #9ca4ab;
+}
+
+#wrapper {
+	margin-top: 100px;
+}
+
+.comment, .entry {
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 300px;
+	background-color: #578AB2;
+	border: 1px solid #25567B;
+}
+
+.comment_text {
+	margin: 0;
+	padding: 10px;
+	font-size: 15px;
+	display: block;
+	font-size: 21px;
+	color: #1A262F;
+}
+
+.comment_info, .photo_info {
+	background-color: #25567B;
+	padding: 5px;
+	font-size: 14px;
+}
+
+#header {
+	margin: 0 0 20px 0;
+	padding: 0;
+	background-color: #25567B;
+	border-bottom: 3px solid #033E6B;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+}
+
+#nav {
+	display: inline-block;
+	position: relative;
+	top: -3px;
+	color: #9ca4ab;
+}
+
+#nav a {
+	height: 100%;
+	border-left: 5px solid #9ca4ab;
+	display: inline-block;
+	padding: 8px;
+	color: inherit;
+	position: relative;
+}
+
+.list_tagged {
+	color: #7594AB;
+	margin-top: 7px;
+	text-align: left;
+	margin-left: 135px;
+	margin-top: 5px;
+}
+
+.photo_comments {
+	color: #7594AB;
+	margin-top: 7px;
+	text-align: left;
+}
+
+.photo_caption {
+	margin-bottom: 7px;
+	display: block;
+}
+
+#attempt {
+	color:black;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.tag {
+	color: #7594AB;
+	margin-top: 7px;
+	text-align: right;
+	margin-left: 100px;
+}
+
+.photo_pdate {
+	display: block;
+}
+
+#go_back {
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 300px;
+	background-color: #66A3D2;
+	padding: 30px;
+	border: 1px solid #25567B;
+	color: black;
+	text-decoration: none;
+}
+
+#names {
+	margin: 0 auto 0 auto;
+	width: 300px;
+	background-color: #25567B;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid #033E6B;
+}
+
+#people_tagged {
+	display: block;
+	margin-bottom: 15px;
+}
+
+#person {
+	margin-top: 5px;
+	display: block;
+	margin: 5px;
+}
+
+#status {
+	color: black;
+	margin-bottom: 10px;
+	margin-top: -10px;
+}

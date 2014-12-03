@@ -1,0 +1,81 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #25567B;
+	margin: 0;
+}
+
+#wrapper {
+	margin: 0;
+}
+
+#main {
+	margin-top: 140px;
+	padding: 40px;
+
+	background-color: #3F92D2;
+	border: 3px solid #033E6B;
+	border-left: 0;
+	border-right: 0;
+}
+
+#formbox {
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 300px;
+	background-color: #66A3D2;
+	padding: 30px;
+	border: 1px solid #25567B;
+}
+
+#login_title {
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+input {
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 25px;
+	color: #A65F00;
+	display: block;
+	width: 100%;
+	height: 30px;
+	border: none;
+}
+
+input[type=submit] {
+	padding: 10px;
+	width: 75%;
+	margin: 0 auto 10px auto;
+	background-color: #FFC373;
+	color: #25567B;
+	font-weight: bold;
+	font-size: 20px;
+	height: auto;
+	text-decoration: none;
+}
+
+input[type=submit]:active {
+	background-color: #FF9200;
+}
+
+#register_link {
+	padding: 10px;
+	width: 100%;
+	margin: 0 auto 10px auto;
+	background-color: #FFC373;
+	color: #25567B;
+	font-weight: bold;
+	font-size: 20px;
+	height: auto;
+	text-decoration: none;
+}
+
+h1 {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 100%;
+	font-family: 'comic sans';
+	font-size: 75px;
+}
