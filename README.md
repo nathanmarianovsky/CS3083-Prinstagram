@@ -1,7 +1,11 @@
-Project Overview
+                                                  Project Overview
+
+
 The course project this semester is Prinstagram, a system for sharing photos. (The Pr(i) in stands for Privacy.) Prinstagram gives users somewhat more privacy than many photo sharing sites by giving them more detailed control over who can see which photos they post and more control over whether other people can tag photos their personal information. Users will be able to log in, post photos, view some of the photos posted by their friends, tag photos with usernames of people in the photos, etc. In part 1 of the project, you will design an ER diagram for the database. In part 2, you will convert my E-R diagram (which I will post later) to a relational schema, write table definitions in SQL, and write some queries. Part 3 will be the most work: using my schema from part 2, you will revise your queries, if necessary, and write application code for the system. A detailed specification will be provided shortly after part 2 is due. (The emphasis will be on information about the photos, rather than the photos themselves, so displaying actual photos will be optional in part 3.)
 
-PART 1
+
+                                                  PART 1
+
 
 Prinstagram allows users to define groups of friends (called FriendGroups), and to share photos with specific FriendGroups. For example, suppose Ann has a "family" FriendGroup and a "besties" friend group. She might share photos of her cat with "family" and photos of a wild party with "besties". Draw an ER diagram modeling the data needed for the system. It should include entity sets (possibly including one or more weak entity sets) representing Person, Photo, and FriendGroup and several relationship sets. Each Person has a unique username, a password, and a name, consisting of a first name and a last name. Each Photo has a unique ID, a caption, a date (when it was taken), a location, consisting of latitude, longitude, and location name, and an indication of whether it is public, as well as the image. Each photo is posted by exactly one person.
 
@@ -19,7 +23,9 @@ Draw the ER diagram neatly. You may draw it by hand or use a drawing tool.
 
 Hand in a HARD COPY of your E-R diagram. MAKE SURE YOUR NAME AND YOUR PART- NER’S NAME ARE ON IT.
 
-PART 2
+
+                                                  PART 2
+
 
 A. Using the attached E-R diagram (my solution to Part 1), use the procedures we studied to derive a relational schema, then write SQL CREATE TABLE statements and execute them in your database system. Remember to include primary key and foreign key constraints. (You don’t have to hand in the schema diagram, only the create table statements, but you may find it useful to draw a schema diagram.) Use the following data types:
 
@@ -43,7 +49,9 @@ C. Write a query to show the ID and caption of each photo that is shared with Da
 
 What to hand in for Part 2: Use electronic handin to hand in a single file with the CREATE TABLE, INSERT, and SELECT statements in that order. We should be able to execute this file, so comment out anything that isn’t SQL. The comment delimiter is double hyphen. If you’re working with a partner, be sure to include both of your names as comments.
 
-PART 3
+
+                                                  PART 3
+
 
 In part 3 of the project, you will use the table definitions I posted (solution to part 2) to implement application code for Prinstagram as a web-based application. You may use PHP, Java, or C#. If you’d like to use some other language, check with me by Nov 7. You must use prepared statements.
 
@@ -71,6 +79,8 @@ Add friend: User selects an existing one of user’s FriendGroups and provides f
 Your choice: Add at least one more reasonably interesting feature. (Registration page is not interesting.) Write a brief explanation of the feature and implement it.
 Defriend: Required for teams; extra credit for people working alone: Think about what should be done when someone is defriended, including some reasonable approach to tags that they posted or saw by virtue of being in the friend group. Write a short summary of how you’re handling this situation. Implement it and test it.
 Partners, etc
+
+
 
 You may work alone or with a partner. You may work on part 1 alone then choose a partner for parts 2 and/or 3, but you may not switch partners. If you work with a partner, you will be required to add one or two extra features (which I will specify) to the application, but the total amount of work per person will be less than if you work alone. If you are doing this project with a partner, you must notify me by sending e-mail to the grader by Nov 7. His address is posted in the Syllabus section on Classes. Note that each partner is expected to contribute roughly equally and each partner is responsible for understanding the entire system. The quiz or exam question about the project will test each person individually.
 
